@@ -1,0 +1,19 @@
+[font]
+normal = { family = "Hack Nerd Font Mono", style = "Regular" }
+size = 15
+
+[window]
+dimensions = { columns = 80, lines = 25 }
+padding = { x = 5, y = 5 }
+decorations = "Full"
+opacity = 0.9
+blur = true
+
+[cursor]
+style = "Underline" 
+
+[terminal]
+
+[terminal.shell]
+program = "pwsh.exe"
+args = ["-NoLogo", "-NoExit", "-Command", "Set-Location -Path 'C:\\Users\\ememendozar'"]
